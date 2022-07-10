@@ -1,6 +1,6 @@
 from market import app
 from flask import render_template
-from market.modules import Item
+from market.models import Item
 @app.route('/')
 @app.route('/home')
 def home_page():
