@@ -1,5 +1,3 @@
-import email
-from unicodedata import category
 from market import app,db
 from flask import render_template , redirect , url_for, flash   
 from market.models import Item,User
